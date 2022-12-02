@@ -1,0 +1,221 @@
+        body {
+            margin:0;
+            padding:0;
+            font-size: 2.5vh;
+            color: black;
+            font-family: 'Anek Devanagari', serif;
+        }
+        video {
+            margin-left: 43vw;
+            margin-bottom:0;
+            width:41%;
+            transform: translate(-50%);
+        }
+
+        a, a:hover, a:visited {
+            color: #0071bc;
+        }
+        #map {
+            top:0;
+            height: 100vh;
+            width:100vw;
+            position: fixed;
+        }
+        #mapInset {
+            bottom:50px;
+            right:30px;
+            height: 180px;
+            width:250px;
+            max-width:100%;
+            position: fixed;
+            z-index: 1;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+            pointer-events: none;
+        }
+        #mapInset .mapboxgl-ctrl-bottom-left{
+            display: none;
+        }
+        @media (max-width: 500px) {
+            #mapInset {
+                display: none;
+            }
+        }
+        #header {
+            margin: auto;
+            width: 100%;
+            position: relative;
+            z-index: 5;
+            background-image: url("images/Protected Bike Lanes.jpg");
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+            height: 240vh;
+
+        }
+        #header h1, #header h2, #header p {
+            margin: 0;
+            padding: 2vh 2vw;
+            text-align: center;
+        }
+        #header h1{
+            font-size: 6vh;
+            color: white;
+            padding-top: 30vh;
+            font-family: "Secular One", sans-serif;
+        }
+        #header h2{
+            font-size: 3vh;
+            color: white;
+            padding-bottom: 50vh;
+        }
+        #header h3{
+            font-size: 2vh;
+            padding-top: 1vh;
+            padding-bottom: 5vh;
+            text-align: left;
+            margin-left: 84vw;
+            margin-right: 0vw;
+            line-height: 25px;
+            color: darkslategray;
+            font-family: "Anek Devanagari", sans-serif;
+        }
+
+        #header p{
+            font-size: 2.3vh;
+            text-align: left;
+            margin-left: 28vw;
+            margin-right: 28vw;
+            line-height: 25px;
+            color: black;
+            font-family: "Anek Devanagari", sans-serif;
+        }
+
+        #footer {
+            width: 100%;
+            min-height: 5vh;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            text-align: center;
+            line-height: 25px;
+            font-size: 13px;
+            position: relative;
+            z-index: 5;
+        }
+        #interlude {
+            width: 100vw;
+            opacity: 0.999;
+        }
+        #interlude p{
+            text-align: left;
+            line-height: 25px;
+            margin-left: 28vw;
+            margin-right: 28vw;
+        }
+        #features {
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+        }
+        #features h1{
+            padding-top: 0.5vh;
+            padding-bottom: 0.5vh;
+            font-size: 3vh;
+            color: black;
+            font-family: "Anek Devanagari", sans-serif;
+        }
+
+        #features h2{
+            padding-top: 0vh;
+            padding-bottom: 0.5vh;
+            font-size: 2vh;
+            color: darkslategray;
+            font-family: "Anek Devanagari", sans-serif;
+        }
+
+        #features h3{
+            padding-top: 0.5vh;
+            padding-bottom: 0.5vh;
+            font-size: 2.3vh;
+            margin-left: 28vw;
+            margin-right: 28vw;
+            color: black;
+            font-family: "Anek Devanagari", sans-serif;
+            font-weight: normal;
+        }
+
+        #features h4{
+            margin-top: 0vh;
+            padding-bottom: 0vh;
+            font-size: 2vh;
+            margin-left: 43vw;
+            margin-right: 28vw;
+            color: darkslategray;
+            font-family: "Anek Devanagari", sans-serif;
+        }
+
+        #features p{
+            padding-top: 0.5vh;
+            padding-bottom: 0.5vh;
+            font-size: 2.1vh;
+            color: black;
+            font-family: "Anek Devanagari", sans-serif;
+        }
+
+        .hidden {
+            visibility: hidden;
+        }
+        .centered {
+            width: 50vw;
+            margin: 0 auto;
+        }
+        .lefty {
+            width: 33vw;
+            margin-left: 5vw;
+        }
+        .righty {
+            width: 33vw;
+            margin-left: 62vw;
+        }
+        .fully {
+            width: 100%;
+            margin: auto;
+        }
+        .light {
+            color: #444;
+            background-color: #fafafa;
+        }
+        .dark {
+            color: #fafafa;
+            background-color: #444;
+        }
+        .step {
+            padding-bottom: 50vh;
+            /* margin-bottom: 10vh; */
+            opacity: 0.25;
+        }
+        .step.active {
+            opacity: 0.9;
+        }
+
+        .step div {
+            padding:  25px 50px;
+            line-height: 25px;
+            font-size: 13px;
+        }
+
+        .step img {
+            width: 100%;
+        }
+
+        @media (max-width: 750px) {
+            .centered, .lefty, .righty, .fully {
+                width: 90vw;
+                margin: 0 auto;
+            }
+        }
+
+        /* Fix issue on mobile browser where scroll breaks  */
+        .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan,
+        .mapboxgl-canvas-container.mapboxgl-touch-zoom-rotate.mapboxgl-touch-drag-pan .mapboxgl-canvas {
+            touch-action: unset;
+        }
