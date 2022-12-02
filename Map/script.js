@@ -54,7 +54,7 @@ if (config.subtitle) {
 
 if (config.byline1) {
     var bylineText = document.createElement('h3');
-    bylineText.innerText = config.byline1;
+    bylineText.innerHTML = config.byline1;
     header.appendChild(bylineText);
 }
 
@@ -107,7 +107,7 @@ config.chapters.forEach((record, idx) => {
 
     if (record.subtitle) {
         var subtitle = document.createElement('h2');
-        subtitle.innerText = record.subtitle;
+        subtitle.innerHTML = record.subtitle;
         chapter.appendChild(subtitle);
     }
 
@@ -126,6 +126,12 @@ config.chapters.forEach((record, idx) => {
         var story = document.createElement('h3');
         story.innerHTML = record.description3;
         chapter.appendChild(story);
+    }
+
+    if (record.image2) {
+        var image = new Image();
+        image.src = record.image2;
+        chapter.appendChild(image);
     }
 
     if (record.video) {
