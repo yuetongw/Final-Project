@@ -8,7 +8,7 @@ var config = {
     //https://docs.mapbox.com/mapbox-gl-js/example/projections/
     inset: false,
     theme: 'light',
-    use3dTerrain: false, //set true for enabling 3D maps.
+    use3dTerrain: true, //set true for enabling 3D maps.
     title: 'Bike Lanes and Bike-Sharing Demand in Washington DC',
     subtitle: 'Accessibility of Disadvantaged Households',
     byline1: 'Photo from https://ddot.dc.gov/',
@@ -157,7 +157,7 @@ var config = {
             description2: "From the above maps, the spatial distribution of bike lanes and bike-share stations in Washington, DC, is being assessed. As seen in the development of bike lanes in DC, the quality of newly installed bike lane infrastructure has improved over time, from simple bike lanes to protected bike lanes that separate cyclists from traffic. However, the existing bike lanes still do not have the ability to meet the needs of cyclists to ride safely, as many places do not have continuous and complete bike lanes. According to the study by McNeil and his colleagues at Portland State, concerns about traffic safety are the biggest barrier to cycling (48% of residents see it as a big barrier) (McNeil et al., 2017). So there's still plenty of room to improve DC's bike lanes. In fact, this step-by-step approach to bike lane building has been successful in winning political, public, and administrative support, but its disadvantages have been exposed accordingly: there are still many gaps in the city's bike route network because bike lane infrastructure is built when individual opportunities arise, rather than as part of an integrated network.",
             description3: "In addition, with more and more areas adopting bike-sharing systems, a better understanding of the basic demographics can make it easier to promote low-carbon travel options and provide a new choice for low-income or no-vehicle households. Thus, it's important to further understand the activity patterns of groups who use bike-sharing and the commuting and recreational travel patterns of people without cars. At the same time, the analysis also tries to reveal inequalities in geospatial and facilities distribution with the aim of making recommendations for better infrastructure settings.",
             video: 'images/2022_Washington_DC_Bike_Infrastructure.mp4',
-            description4: "Video from YouTube (https://youtu.be/leljnocADy0)",
+            description4: '<a href="https://youtu.be/leljnocADy0" target="_blank">Video from YouTube</a>',
             location: {
               center: [-76.94420, 38.89304],
               zoom: 11,
