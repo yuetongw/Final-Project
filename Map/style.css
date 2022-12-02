@@ -53,7 +53,7 @@
             height: 240vh;
 
         }
-        #header h1, #header h2, #header p {
+        #header h1, #header h2, #header h3, #header p {
             margin: 0;
             padding: 2vh 2vw;
             text-align: center;
@@ -71,13 +71,14 @@
         }
         #header h3{
             font-size: 2vh;
-            padding-top: 1vh;
+            padding-top: 2.5vh;
             padding-bottom: 5vh;
             text-align: left;
-            margin-left: 84vw;
+            margin-left: 85vw;
             margin-right: 0vw;
             line-height: 25px;
             color: darkslategray;
+            font-weight: normal;
             font-family: "Anek Devanagari", sans-serif;
         }
 
@@ -94,14 +95,21 @@
         #footer {
             width: 100%;
             min-height: 5vh;
-            padding-top: 2vh;
+            padding-top: 10vh;
             padding-bottom: 2vh;
-            text-align: center;
             line-height: 25px;
             font-size: 13px;
             position: relative;
             z-index: 5;
         }
+        
+        #footer p{
+            text-align: left;
+            line-height: 25px;
+            margin-left: 28vw;
+            margin-right: 28vw;
+        }
+
         #interlude {
             width: 100vw;
             opacity: 0.999;
@@ -129,6 +137,7 @@
             padding-bottom: 0.5vh;
             font-size: 2vh;
             color: darkslategray;
+            font-weight: normal;
             font-family: "Anek Devanagari", sans-serif;
         }
 
