@@ -34,6 +34,7 @@ function setLayerOpacity(layer) {
     });
 }
 
+
 var story = document.getElementById('story');
 var features = document.createElement('div');
 features.setAttribute('id', 'features');
@@ -87,6 +88,7 @@ if (header.innerText.length > 0) {
     header.setAttribute('id', 'header');
     story.appendChild(header);
 }
+
 
 config.chapters.forEach((record, idx) => {
     var container = document.createElement('div');
@@ -146,6 +148,15 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(videoDiv);
     }
 
+    if (record.video2) {
+        var videoDiv = document.createElement('div');
+        video =  document.createElement('iframe');
+        video.src = record.video2;
+        video.height = "310";
+        videoDiv.appendChild(video)
+        chapter.appendChild(videoDiv);
+    }
+
     if (record.description4) {
         var story = document.createElement('h4');
         story.innerHTML = record.description4;
@@ -183,7 +194,9 @@ if (footer.innerText.length > 0) {
     story.appendChild(footer);
 }
 
+
 mapboxgl.accessToken = config.accessToken;
+
 
 const transformRequest = (url) => {
     const hasQuery = url.indexOf("?") !== -1;
