@@ -152,13 +152,82 @@ var config = {
                 // }
             ]
         },
+        { 
+            id: '2-chapter', alignment: 'left', hidden: false,
+            title: 'Installed Protected Bikelanes',
+            subtitle: '<b> People riding on the sidewalk </b> / By Lei Sun',
+            description: "Beginning in 2009, the agency began installing protected bike lanes, also known as Cycle Tracks or separated bike lanes. In 2019, DDOT announced a plan to build 20 miles of new, protected bike lanes by the end of 2022. And in the past two years, Washington, D.C., has added 13 miles of protected bike lanes (Lazo, 2022). However, from the map, it's easy to see that the bike lanes are often disjointed and not fully covered, so much so that people are often faced with the difficult choice of whether to risk riding in the motorway or breaking into the sidewalk.",
+            image: 'images/Riding Sidewalk.png',
+            image2: 'images/legend_Protected Bikelanes.png',
+            location: {
+                center: [-77.04707, 38.89304],
+                zoom: 17,
+                pitch: 57.50,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'installed-bikelanes-5t7hxb',
+                    opacity: 1
+                },
+                {
+                    layer: 'fy23-bike-lane-protected-dqu6ki',
+                    opacity: 1
+                },
+                {
+                    layer: 'installed-bikelanes-after2020-7ozt3c',
+                    opacity: 0
+                },
+                {
+                    layer: 'capibike-location-cgt8d3',
+                    opacity: 0,
+                },
+                {
+                    layer: 'bikeshare202210-5tkniw',
+                    opacity: 0,
+                },                
+                {
+                    layer: 'bkgroup-join-demo-d09c35',
+                    opacity: 0
+                },
+                {
+                    layer: 'Low-Income-Households',
+                    opacity: 0
+                },
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                {
+                    layer: 'bkgroup-join-demo-d09c35',
+                    opacity: 0,
+                },
+                {
+                    layer: 'Low-Income-Households',
+                    opacity: 0,
+                }
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
         {
             id: 'interlude',
             alignment: 'center',
             hidden: false,
             description2: "From the above maps, the spatial distribution of bike lanes and bike-share stations in Washington, DC, is being assessed. As seen in the development of bike lanes in DC, the quality of newly installed bike lane infrastructure has improved over time, from simple bike lanes to protected bike lanes that separate cyclists from traffic. However, the existing bike lanes still do not have the ability to meet the needs of cyclists to ride safely, as many places do not have continuous and complete bike lanes. According to the study by McNeil and his colleagues at Portland State, concerns about traffic safety are the biggest barrier to cycling (48% of residents see it as a big barrier) (McNeil et al., 2017). So there's still plenty of room to improve DC's bike lanes. In fact, this step-by-step approach to bike lane building has been successful in winning political, public, and administrative support, but its disadvantages have been exposed accordingly: there are still many gaps in the city's bike route network because bike lane infrastructure is built when individual opportunities arise, rather than as part of an integrated network.",
             description3: "In addition, with more and more areas adopting bike-sharing systems, a better understanding of the basic demographics can make it easier to promote low-carbon travel options and provide a new choice for low-income or no-vehicle households. Thus, it's important to further understand the activity patterns of groups who use bike-sharing and the commuting and recreational travel patterns of people without cars. At the same time, the analysis also tries to reveal inequalities in geospatial and facilities distribution with the aim of making recommendations for better infrastructure settings.",
-            video: 'images/2022_Washington_DC_Bike_Infrastructure.mp4',
+            //video: 'images/2022_Washington_DC_Bike_Infrastructure.mp4',
+            video2: 'https://www.youtube.com/embed/leljnocADy0',
+            //video2: '<iframe width="1054" height="593" src="https://www.youtube.com/embed/leljnocADy0" title="2022 Washington DC Bike Infrastructure - How did they do it?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+
             description4: '<a href="https://youtu.be/leljnocADy0" target="_blank">Video clips from YouTube</a>',
             location: {
               center: [-76.94420, 38.89304],
