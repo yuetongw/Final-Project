@@ -242,6 +242,7 @@ var config = {
             hidden: false,
             title: 'No Vehicle Households',
             image: 'images/Change of NoVehicle Households.jpeg',
+            image2: 'images/legend_No Vehicle Households.png',
             subtitle: 'Proportion changes of no-vehicle households',
             description: 'A quick look at the distribution of the number of households without a car shows that most of the no-vehicle households are concentrated in the southeast and central areas of DC.',
             location: {
