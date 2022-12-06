@@ -12,6 +12,13 @@
             transform: translate(-50%);
         }
 
+        iframe {
+            margin-left: 43vw;
+            margin-bottom:0;
+            width:41%;
+            transform: translate(-50%);
+        }
+
         a, a:hover, a:visited {
             color: #0071bc;
         }
