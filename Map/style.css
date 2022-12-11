@@ -57,7 +57,7 @@
             background-position: top;
             background-repeat: no-repeat;
             background-size: 100vw 100vh;
-            height: 240vh;
+            height: 230vh;
 
         }
         #header h1, #header h2, #header h3, #header p {
@@ -175,6 +175,12 @@
             font-size: 2.1vh;
             color: black;
             font-family: "Anek Devanagari", sans-serif;
+        }
+
+        element.style{
+            max-width: 550px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .hidden {
