@@ -124,16 +124,27 @@ config.chapters.forEach((record, idx) => {
         story.innerHTML = record.description2;
         chapter.appendChild(story);
     }
-    if (record.description3) {
-        var story = document.createElement('h3');
-        story.innerHTML = record.description3;
-        chapter.appendChild(story);
-    }
 
     if (record.image2) {
         var image = new Image();
         image.src = record.image2;
         chapter.appendChild(image);
+    }
+
+    if (record.image3) {
+        var imageDiv = document.createElement('div');
+        image =  document.createElement('iframe');
+        image.src = record.image3;
+        image.height = "350";
+        image.width = "350";
+        imageDiv.appendChild(image)
+        chapter.appendChild(imageDiv);
+    }
+
+    if (record.description3) {
+        var story = document.createElement('h3');
+        story.innerHTML = record.description3;
+        chapter.appendChild(story);
     }
 
     if (record.video) {
@@ -158,7 +169,7 @@ config.chapters.forEach((record, idx) => {
     }
 
     if (record.description4) {
-        var story = document.createElement('h4');
+        var story = document.createElement('h3');
         story.innerHTML = record.description4;
         chapter.appendChild(story);
     }
