@@ -131,15 +131,15 @@ config.chapters.forEach((record, idx) => {
         chapter.appendChild(image);
     }
 
-    if (record.image3) {
-        var imageDiv = document.createElement('div');
-        image =  document.createElement('iframe');
-        image.src = record.image3;
-        image.height = "350";
-        image.width = "350";
-        imageDiv.appendChild(image)
-        chapter.appendChild(imageDiv);
-    }
+    //if (record.image3) {
+    //    var imageDiv = document.createElement('div');
+    //    image =  document.createElement('iframe');
+    //    image.src = record.image3;
+    //    image.height = "350";
+    //    image.width = "350";
+    //    imageDiv.appendChild(image)
+    //    chapter.appendChild(imageDiv);
+    //}
 
     if (record.description3) {
         var story = document.createElement('h3');
