@@ -450,8 +450,8 @@ var config = {
             hidden: false,
             title: 'Change in Ridership from 2019 to 2022',
             image: 'images/Ridership Changes.png',
-            subtitle: '<b>Why no longer a Capital Bikeshare Member </b>/ from <a href="https://d21xlh2maitm24.cloudfront.net/wdc/Capital-Bikeshare_2016MemberSurvey_Final-Report.pdf?mtime=20170303165531" target="_blank">2016 Capital BikeshareMember Survey Report</a>',
-            description: 'By calculating the number of departures from each bike-sharing station within October 2022 using Capital Bikeshare trip history data, the results of the usage of shared bicycles are obtained as shown in the figure on the right. It can be found that the stations with more ridership are concentrated in the central area, which is also where the bike lanes are more dense. Areas with more bike lanes have a higher usage rate for bike sharing than peripheral areas.',
+            subtitle: 'Data Source: <a href="https://s3.amazonaws.com/capitalbikeshare-data/index.html" target="_blank">Capital Bikeshare trip history data</a>',
+            description: "To corroborate that bike-sharing stations located on bike lanes are more likely to attract cyclists, this study conducts an in-depth analysis of four bike-sharing stations. None of the four selected sites had an adjacent bike lane until 2020, while the experimental group represented by the orange dots and lines (station IDs: <u>31640</u> and <u>31607</u>) had a newly installed bike lane between 2020-2021, and the two control groups represented by the blue dots and lines (station IDs: <u>31613</u> and <u>31641</u>) did not have a new bike lane installation. The change curve of monthly ridership from 2019-2022 shows that the experimental group with newly installed bike lanes has little change in ridership under the influence of the epidemic and the season, while the control group has a more significant decrease in ridership.",
             //The ability to capture and predict the number of users per hour has allowed entities such as the companies overseeing bike-sharing systems and relevant government departments to manage them more efficiently and cost-effectively, but the corresponding road infrastructure has not been well developed.
             location: {
               center: [-77.03135, 38.89187],
@@ -515,8 +515,8 @@ var config = {
             hidden: false,
             title: 'Change in Ridership',
             image: 'images/Sum Ridership Two Stations 1.png',
-            subtitle: '<b>Why no longer a Capital Bikeshare Member </b>/ from <a href="https://d21xlh2maitm24.cloudfront.net/wdc/Capital-Bikeshare_2016MemberSurvey_Final-Report.pdf?mtime=20170303165531" target="_blank">2016 Capital BikeshareMember Survey Report</a>',
-            description: 'By calculating the number of departures from each bike-sharing station within October 2022 using Capital Bikeshare trip history data, the results of the usage of shared bicycles are obtained as shown in the figure on the right. It can be found that the stations with more ridership are concentrated in the central area, which is also where the bike lanes are more dense. Areas with more bike lanes have a higher usage rate for bike sharing than peripheral areas.',
+            subtitle: 'Data Source: <a href="https://s3.amazonaws.com/capitalbikeshare-data/index.html" target="_blank">Capital Bikeshare trip history data</a>',
+            description: 'To show the impact of the bike lanes more clearly, this study then extracted daily ridership data for October 2019 and October 2022 for the two groups of stations separately. It can be seen that the experimental group (station ID: <u>31640</u>) has a flatter riding volume at the same time in both years; while the control group (station ID: <u>31641</u>) has a significant decrease in riding volume in 2022 compared to 2019.',
             //The ability to capture and predict the number of users per hour has allowed entities such as the companies overseeing bike-sharing systems and relevant government departments to manage them more efficiently and cost-effectively, but the corresponding road infrastructure has not been well developed.
             location: {
               center: [-76.99676, 38.89488],
