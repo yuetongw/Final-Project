@@ -393,7 +393,7 @@ var config = {
             title: 'Bike Share Usage',
             image: 'images/why no longer use CapiBike.png',
             subtitle: '<b>Why no longer a Capital Bikeshare Member </b>/ from <a href="https://d21xlh2maitm24.cloudfront.net/wdc/Capital-Bikeshare_2016MemberSurvey_Final-Report.pdf?mtime=20170303165531" target="_blank">2016 Capital BikeshareMember Survey Report</a>',
-            description: 'By calculating the number of departures from each bike-sharing station within October 2022, the data is obtained as shown in the figure on the right. It can be found that the stations with more ridership are concentrated in the central area, which is also where the bike lanes are more dense. Areas with more bike lanes have a higher usage rate for bike sharing than peripheral areas.',
+            description: 'By calculating the number of departures from each bike-sharing station within October 2022 using Capital Bikeshare trip history data, the results of the usage of shared bicycles are obtained as shown in the figure on the right. It can be found that the stations with more ridership are concentrated in the central area, which is also where the bike lanes are more dense. Areas with more bike lanes have a higher usage rate for bike sharing than peripheral areas.',
             //The ability to capture and predict the number of users per hour has allowed entities such as the companies overseeing bike-sharing systems and relevant government departments to manage them more efficiently and cost-effectively, but the corresponding road infrastructure has not been well developed.
             location: {
               center: [-77.03135, 38.89187],
