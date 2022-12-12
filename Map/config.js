@@ -229,10 +229,6 @@ var config = {
             ],
             onChapterExit: [
                 {
-                    layer: 'bkgroup-join-demo-d09c35',
-                    opacity: 0,
-                },
-                {
                     layer: 'Low-Income-Households',
                     opacity: 0,
                 }
@@ -273,16 +269,16 @@ var config = {
                     opacity: 1
                 },
                 {
+                    layer: 'bkgroup-join-demo-d09c35',
+                    opacity: 1
+                },
+                {
                     layer: 'four-stations',
                     opacity: 0
                 },
                 {
                     layer: 'bikeshare202210-5tkniw',
                     opacity: 0,
-                },
-                {
-                    layer: 'bkgroup-join-demo-d09c35',
-                    opacity: 1
                 },
                 {
                     layer: 'Low-Income-Households',
@@ -452,7 +448,7 @@ var config = {
             id: '5th-chapter',
             alignment: 'center',
             hidden: false,
-            title: 'Bike Share Usage',
+            title: 'Change in Ridership from 2019 to 2022',
             image: 'images/Ridership Changes.png',
             subtitle: '<b>Why no longer a Capital Bikeshare Member </b>/ from <a href="https://d21xlh2maitm24.cloudfront.net/wdc/Capital-Bikeshare_2016MemberSurvey_Final-Report.pdf?mtime=20170303165531" target="_blank">2016 Capital BikeshareMember Survey Report</a>',
             description: 'By calculating the number of departures from each bike-sharing station within October 2022 using Capital Bikeshare trip history data, the results of the usage of shared bicycles are obtained as shown in the figure on the right. It can be found that the stations with more ridership are concentrated in the central area, which is also where the bike lanes are more dense. Areas with more bike lanes have a higher usage rate for bike sharing than peripheral areas.',
@@ -479,7 +475,7 @@ var config = {
                 },
                 {
                     layer: 'bikeshare202210-5tkniw',
-                    opacity: 1
+                    opacity: 0
                 },
                 {
                     layer: 'installed-bikelanes-5t7hxb',
@@ -499,7 +495,7 @@ var config = {
                 },
                 {
                     layer: 'four-stations',
-                    opacity: 0
+                    opacity: 1
                 },
                 ],
             onChapterExit: [
