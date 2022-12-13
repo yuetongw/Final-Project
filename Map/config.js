@@ -515,6 +515,7 @@ var config = {
             hidden: false,
             title: 'Change in Daily Ridership',
             image: 'images/Sum Ridership Two Stations 1.png',
+            image2: 'images/Change in Daily Ridership 1.png',
             subtitle: 'Data Source: <a href="https://s3.amazonaws.com/capitalbikeshare-data/index.html" target="_blank">Capital Bikeshare trip history data</a>',
             description: 'To show the impact of the bike lanes more clearly, this study then extracted daily ridership data for October 2019 and October 2022 for the two groups of stations separately. It can be seen that the experimental group (station ID: <u>31640</u>) has a flatter riding volume at the same time in both years; while the control group (station ID: <u>31641</u>) has a significant decrease in riding volume in 2022 compared to 2019.',
             //The ability to capture and predict the number of users per hour has allowed entities such as the companies overseeing bike-sharing systems and relevant government departments to manage them more efficiently and cost-effectively, but the corresponding road infrastructure has not been well developed.
