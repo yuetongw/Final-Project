@@ -754,7 +754,7 @@ var config = {
                 ]
         },
         {
-            id: '6-5-chapter',
+            id: '7th-chapter',
             alignment: 'center',
             hidden: false,
             title: 'A Self-Drawn Route Map',
@@ -811,7 +811,111 @@ var config = {
                 {
                     layer: 'bkgroup-join-demo-d09c35',
                     opacity: 0,
-                }
+                },
+                ]
+        },
+        {
+            id: '8th-chapter',
+            alignment: 'center',
+            hidden: false,
+            title: 'Limitations',
+            //video: 'images/2022_Washington_DC_Bike_Infrastructure.mp4',
+            //video2: 'https://www.youtube.com/embed/leljnocADy0',
+            //video2: '<iframe width="1054" height="593" src="https://www.youtube.com/embed/leljnocADy0" title="2022 Washington DC Bike Infrastructure - How did they do it?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: 'The Capital Bikeshare biannual membership surveys only show until 2016 because the pandemic stops the 2020 survey, and the 2018 survey is not available online, so there is some difficulty in understanding the cycling activities of households without cars and low-income households. In addition, Washington, DC, and the surrounding Maryland and Virginia areas are very well connected, but limiting the study area to DC would make the study less comprehensive.',
+            location: {
+              center: [-76.94420, 38.89304],
+              zoom: 11,
+              pitch: 0,
+              bearing: 0,
+            },
+            onChapterEnter: [
+                {
+                    layer: 'four-stations',
+                    opacity: 0
+                },
+                {
+                    layer: 'Low-Income-Households',
+                    opacity: 0
+                },
+                {
+                    layer: 'installed-bikelanes-after2020-7ozt3c',
+                    opacity: 1
+                },
+                {
+                    layer: 'bkgroup-join-demo-d09c35',
+                    opacity: 0
+                },
+                {
+                    layer: 'bikeshare202210-5tkniw',
+                    opacity: 0
+                },
+                {
+                    layer: 'installed-bikelanes-5t7hxb',
+                    opacity: 0.75,
+                },
+                {
+                    layer: 'capibike-location-cgt8d3',
+                    opacity: 0,
+                },
+                {
+                    layer: 'fy23-bike-lane-protected-dqu6ki',
+                    opacity: 0
+                },
+                ],
+            onChapterExit: [
+                ]
+        },
+        {
+            id: '9th-chapter',
+            alignment: 'center',
+            hidden: false,
+            title: 'Conclusions',
+            //video: 'images/2022_Washington_DC_Bike_Infrastructure.mp4',
+            //video2: 'https://www.youtube.com/embed/leljnocADy0',
+            //video2: '<iframe width="1054" height="593" src="https://www.youtube.com/embed/leljnocADy0" title="2022 Washington DC Bike Infrastructure - How did they do it?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            description: 'By examining the link between the distribution of bicycle-related infrastructure and bicycle-sharing ridership, this study provides a more intuitive illustration of the direct contribution of bicycle lane establishment to bicycle-sharing ridership. Further, the spatial distribution of car-free and low-income households reveals the inequality in the distribution of bicycle-related facilities. In the next study, how to improve this situation and better understand and meet the needs of disadvantaged groups becomes a high priority for urban planners and spatial analysts.',
+            location: {
+              center: [-76.94420, 38.89304],
+              zoom: 11,
+              pitch: 0,
+              bearing: 0,
+            },
+            onChapterEnter: [
+                {
+                    layer: 'four-stations',
+                    opacity: 0
+                },
+                {
+                    layer: 'Low-Income-Households',
+                    opacity: 0
+                },
+                {
+                    layer: 'installed-bikelanes-after2020-7ozt3c',
+                    opacity: 1
+                },
+                {
+                    layer: 'bkgroup-join-demo-d09c35',
+                    opacity: 0
+                },
+                {
+                    layer: 'bikeshare202210-5tkniw',
+                    opacity: 0
+                },
+                {
+                    layer: 'installed-bikelanes-5t7hxb',
+                    opacity: 0.75,
+                },
+                {
+                    layer: 'capibike-location-cgt8d3',
+                    opacity: 0,
+                },
+                {
+                    layer: 'fy23-bike-lane-protected-dqu6ki',
+                    opacity: 0
+                },
+                ],
+            onChapterExit: [
                 ]
         },
     ]
