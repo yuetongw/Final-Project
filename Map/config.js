@@ -180,9 +180,9 @@ var config = {
             id: '2-chapter', alignment: 'center', hidden: false,
             description: "From the above maps, the spatial distribution of bike lanes and bike-share stations in Washington, DC, is assessed. As seen in the development of bike lanes in DC, the quality of newly installed bike lane infrastructure has improved over time, from simple bike lanes to protected bike lanes that separate cyclists from traffic. However, the existing bike lanes still do not have the ability to meet the needs of cyclists to ride safely, as many places do not have continuous and complete bike lanes. Safety concerns, particularly the perception of hazards from automobiles, are frequently highlighted as a key barrier to bicycle riding (Fishman, 2016). According to the study by McNeil and his colleagues at Portland State, concerns about traffic safety are the biggest barrier to cycling (48% of residents see it as a big barrier) (McNeil et al., 2017). It is not difficult to see that there's still plenty of room to improve DC's bike lanes. In fact, while this step-by-step approach to bike lane building has been successful in winning political, public, and administrative support, its disadvantages have been exposed accordingly: there are still many gaps in the city's bike route network because bike lane infrastructure is built when individual opportunities arise, rather than as part of an integrated network (Buehler et al., 2021). <br>  <br> As more and more areas adopting bike-sharing systems, a better understanding of the basic demographics in DC can make it easier to promote low-carbon travel options, and more importantly, provide a new choice for low-income or no-vehicle households.",
             location: {
-                center: [-77.04707, 38.89304],
-                zoom: 17,
-                pitch: 57.50,
+                center: [-76.94420, 38.89304],
+                zoom: 11,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
