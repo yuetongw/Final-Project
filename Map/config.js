@@ -16,7 +16,7 @@ var config = {
     para1: "Bicycle travel has always been considered a low-carbon and healthy way of travel. In recent years, the development of the bike-sharing system has given more people (especially those without cars) more options for commuting and recreational trips. More affordable bicycles for short trips in urban areas can be a useful way to help people get around. With rising fuel prices, traffic congestion, and deteriorating environmental quality, the emergence of bike-sharing certainly offers a sustainable mode of transportation. Both shared bikes and e-scooters are examples of micro-transportation, which incorporates very small, low-occupancy vehicles (Bikeshare and E-Scooters in the U.S., 2022). According to a study in DC, the advent of bike-sharing has reduced traffic congestion in communities and neighborhoods by more than 4% (Hamilton & Wichman, 2018). Compared to personal bicycles, bike sharing makes people feel safer in terms of psychological perception as less risk of theft is avoided. Because they're more environmentally friendly and less expensive, bike-sharing systems have become an essential component of transportation services in major cities all over the world (Abdellaoui Alaoui & Koumetio Tekouabou, 2021). Thus, the bike-sharing project is not a new topic but something that has been booming for the past few years.As more cities and regions adopt bike-share systems, a better understanding of the factors that influence bike-share use can make it easier to promote low-carbon travel choices.",
     //para2: "Subsequently, more and more studies have begun to focus on the bike-sharing demand and bike-related infrastructure. Buck & Buehler (2012) found a significant correlation between the presence of bicycle lanes and the use of capital bike-sharing by examining data on capital bicycle-sharing trips in Washington DC between 2010 and 2011. Besides, based on many other existing studies, it is easy to find that bike-relevant infrastructure and facilities are the most important factors in the demand for the bike-sharing system.",
     para3: 'Washington, D.C., one of the first cities in the United States to launch a bike-sharing program, is now among the largest bike-sharing systems in the country. In 2008, the Capital Bikeshare system began operation, servicing Washington, D.C., and the suburbs in Virginia and Maryland that surround it. At the same time, the DDOT (District Department of Transportation) bike lane program has been operating in Washington, DC, since 2001. However, despite the infrastructure related to cycling in Washington, D.C. is constantly improving, the infrastructure associated with bike travel is still not well developed. Building bike lanes, especially protected bike lanes, has always been a challenge in Washington, D.C., due to road space constraints and other issues (Lazo, 2022).',
-    footer: '<b>Note:</b> <br><b>References:</b> <br>(1) Abdellaoui Alaoui, E. A., & Koumetio Tekouabou, S. C. (2021). Intelligent management of bike sharing in smart cities using machine learning and Internet of Things. Sustainable Cities and Society, 67, 102702. https://doi.org/10.1016/j.scs.2020.102702 <br>(2) Bikeshare and e-scooters in the U.S. (2022). U.S. Department of Transportation Bureau of Transportation Statistics. https://data.bts.gov/stories/s/Bikeshare-and-e-scooters-in-the-U-S-/fwcs-jprj/ <br>(3) Buck, D. (2013). Encouraging Equitable Access to Public Bikesharing Systems. Institute of Transportation Engineers. ITE Journal, 83(3), 24–27. <br>(4) Buck, D., & Buehler, R. (2012). Bike Lanes and Other Determinants of Capital Bikeshare Trips (No. 12–3539). Article 12–3539. Transportation Research Board 91st Annual MeetingTransportation Research Board. https://trid.trb.org/view/1130348 <br>(5) Dehdari Ebrahimi, Z., Momenitabar, M., Nasri, A. A., & Mattson, J. (2022). Using a GIS-based spatial approach to determine the optimal locations of bikeshare stations: The case of Washington D.C. Transport Policy, 127, 48–60. https://doi.org/10.1016/j.tranpol.2022.08.008 <br>(6) Fishman, E. (2016). Cycling as transport. Transport Reviews, 36(1), 1–8. https://doi.org/10.1080/01441647.2015.1114271 <br>(7) Hamilton, T. L., & Wichman, C. J. (2018). Bicycle infrastructure and traffic congestion: Evidence from DC’s Capital Bikeshare. Journal of Environmental Economics and Management, 87, 72–93. https://doi.org/10.1016/j.jeem.2017.03.007 <br>(8) Hosford, K., & Winters, M. (2018). Who Are Public Bicycle Share Programs Serving? An Evaluation of the Equity of Spatial Access to Bicycle Share Service Areas in Canadian Cities. Transportation Research Record, 2672(36), 42–50. https://doi.org/10.1177/0361198118783107 <br>(9) McNeil, N., Dill, J., MacArthur, J., Broach, J., & Howland, S. (2017). Breaking Barriers to Bike Share: Insights from Residents of Traditionally Underserved Neighborhoods. TREC Final Reports. https://doi.org/10.15760/trec.176 <br>(10) Schneider, B. (2017, July 14). What Keeps Bike Share White. https://trec.pdx.edu/content/what-keeps-bike-share-white',
+    footer: '<b>Note:</b> All images and maps (including those with data sources) were created by the author, except for those that have been attributed in the text. <br><b>References:</b> <br>(1) Abdellaoui Alaoui, E. A., & Koumetio Tekouabou, S. C. (2021). Intelligent management of bike sharing in smart cities using machine learning and Internet of Things. Sustainable Cities and Society, 67, 102702. https://doi.org/10.1016/j.scs.2020.102702 <br>(2) Bikeshare and e-scooters in the U.S. (2022). U.S. Department of Transportation Bureau of Transportation Statistics. https://data.bts.gov/stories/s/Bikeshare-and-e-scooters-in-the-U-S-/fwcs-jprj/ <br>(3) Buck, D. (2013). Encouraging Equitable Access to Public Bikesharing Systems. Institute of Transportation Engineers. ITE Journal, 83(3), 24–27. <br>(4) Buck, D., & Buehler, R. (2012). Bike Lanes and Other Determinants of Capital Bikeshare Trips (No. 12–3539). Article 12–3539. Transportation Research Board 91st Annual MeetingTransportation Research Board. https://trid.trb.org/view/1130348 <br>(5) Dehdari Ebrahimi, Z., Momenitabar, M., Nasri, A. A., & Mattson, J. (2022). Using a GIS-based spatial approach to determine the optimal locations of bikeshare stations: The case of Washington D.C. Transport Policy, 127, 48–60. https://doi.org/10.1016/j.tranpol.2022.08.008 <br>(6) Fishman, E. (2016). Cycling as transport. Transport Reviews, 36(1), 1–8. https://doi.org/10.1080/01441647.2015.1114271 <br>(7) Hamilton, T. L., & Wichman, C. J. (2018). Bicycle infrastructure and traffic congestion: Evidence from DC’s Capital Bikeshare. Journal of Environmental Economics and Management, 87, 72–93. https://doi.org/10.1016/j.jeem.2017.03.007 <br>(8) Hosford, K., & Winters, M. (2018). Who Are Public Bicycle Share Programs Serving? An Evaluation of the Equity of Spatial Access to Bicycle Share Service Areas in Canadian Cities. Transportation Research Record, 2672(36), 42–50. https://doi.org/10.1177/0361198118783107 <br>(9) McNeil, N., Dill, J., MacArthur, J., Broach, J., & Howland, S. (2017). Breaking Barriers to Bike Share: Insights from Residents of Traditionally Underserved Neighborhoods. TREC Final Reports. https://doi.org/10.15760/trec.176 <br>(10) Schneider, B. (2017, July 14). What Keeps Bike Share White. https://trec.pdx.edu/content/what-keeps-bike-share-white',
     chapters: [
         {
             id: 'first-chapter',
@@ -694,16 +694,77 @@ var config = {
         },
         {
             id: '6-4-chapter',
-            alignment: 'left',
+            alignment: 'center',
             hidden: false,
             title: 'Change in Ridership',
-            image: 'images/why no longer use CapiBike.png',
-            subtitle: '<b>Why no longer a Capital Bikeshare Member </b>/ from <a href="https://d21xlh2maitm24.cloudfront.net/wdc/Capital-Bikeshare_2016MemberSurvey_Final-Report.pdf?mtime=20170303165531" target="_blank">2016 Capital BikeshareMember Survey Report</a>',
-            description: 'By calculating the number of departures from each bike-sharing station within October 2022 using Capital Bikeshare trip history data, the results of the usage of shared bicycles are obtained as shown in the figure on the right. It can be found that the stations with more ridership are concentrated in the central area, which is also where the bike lanes are more dense. Areas with more bike lanes have a higher usage rate for bike sharing than peripheral areas.',
+            //image: 'images/Self-Drawn Route Map.png',
+            //subtitle: '<b>Why no longer a Capital Bikeshare Member </b>/ from <a href="https://d21xlh2maitm24.cloudfront.net/wdc/Capital-Bikeshare_2016MemberSurvey_Final-Report.pdf?mtime=20170303165531" target="_blank">2016 Capital BikeshareMember Survey Report</a>',
+            description: 'From the above analysis, it is clear that the change in ridership between 2019-2022 due to epidemic and seasonal influences at the bike-sharing stations categorized as experimental (i.e., with new bike lanes after 2020) was not as large as at the bike-sharing stations categorized as control, and it can be concluded that the initiative to build new bike lanes did have a catalytic effect on cycling.',
             //The ability to capture and predict the number of users per hour has allowed entities such as the companies overseeing bike-sharing systems and relevant government departments to manage them more efficiently and cost-effectively, but the corresponding road infrastructure has not been well developed.
             location: {
               center: [-76.99500, 38.88499],
-              zoom: 15.3,
+              zoom: 14.3,
+              pitch: 45.2,
+              bearing: -32.12,
+              //speed: 0.2, // make the flying slow
+              curve: 1, // change the speed at which it zooms out
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [
+                {
+                    layer: 'four-stations',
+                    opacity: 1
+                },
+                {
+                    layer: 'Low-Income-Households',
+                    opacity: 0
+                },
+                {
+                    layer: 'installed-bikelanes-after2020-7ozt3c',
+                    opacity: 1
+                },
+                {
+                    layer: 'bkgroup-join-demo-d09c35',
+                    opacity: 0
+                },
+                {
+                    layer: 'bikeshare202210-5tkniw',
+                    opacity: 0
+                },
+                {
+                    layer: 'installed-bikelanes-5t7hxb',
+                    opacity: 0.75,
+                },
+                {
+                    layer: 'capibike-location-cgt8d3',
+                    opacity: 0,
+                },
+                {
+                    layer: 'fy23-bike-lane-protected-dqu6ki',
+                    opacity: 0
+                },
+                ],
+            onChapterExit: [
+                {
+                    layer: 'bkgroup-join-demo-d09c35',
+                    opacity: 0,
+                }
+                ]
+        },
+        {
+            id: '6-5-chapter',
+            alignment: 'center',
+            hidden: false,
+            title: 'A Self-Drawn Route Map',
+            image: 'images/Self-Drawn Route Map.png',
+            subtitle: 'By an anonymous author',
+            description: 'The above map shows the common cycling route of a car-free resident in the above new bike lane area.',
+            //The ability to capture and predict the number of users per hour has allowed entities such as the companies overseeing bike-sharing systems and relevant government departments to manage them more efficiently and cost-effectively, but the corresponding road infrastructure has not been well developed.
+            location: {
+              center: [-76.99500, 38.88499],
+              zoom: 14.3,
               pitch: 45.2,
               bearing: -32.12,
               //speed: 0.2, // make the flying slow
