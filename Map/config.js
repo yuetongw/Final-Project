@@ -638,6 +638,7 @@ var config = {
             hidden: false,
             title: 'Change in Daily Ridership',
             image: 'images/Sum Ridership Two Stations 2.png',
+            image2: 'images/Change in Daily Ridership 2.png',
             subtitle: 'Data Source: <a href="https://s3.amazonaws.com/capitalbikeshare-data/index.html" target="_blank">Capital Bikeshare trip history data</a>',
             description: 'Similar to above, the experimental group (station ID: <u>31607</u>) rides were flatter at the same time in both years, while the control group (station ID: <u>31613</u>) rides in 2022 decreased significantly compared to 2019.',
             //The ability to capture and predict the number of users per hour has allowed entities such as the companies overseeing bike-sharing systems and relevant government departments to manage them more efficiently and cost-effectively, but the corresponding road infrastructure has not been well developed.
