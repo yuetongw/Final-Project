@@ -1,6 +1,6 @@
 var config = {
     style:  'mapbox://styles/meadowyt/cla8zoaem001d15p66p9g8xm1',
-    accessToken: 'XXX',
+    accessToken: 'pk.eyJ1IjoieXVldG9uZzk5IiwiYSI6ImNrNmk5M2RzczAxazkzZXA2bmloYjd3ODAifQ.lWWJmbEon1gsuRbCIrElfg',
     showMarkers: true,
     markerColor: '#3FB1CE',
     //projection: 'equirectangular',
